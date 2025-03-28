@@ -16,5 +16,11 @@ public class Array03 {
       System.out.println("请输入第" + (i + 1) + "个成绩：");
       scores[i] = sc.nextDouble();
     }
+
+    for (int i = 0; i < scores.length; i++) {
+      System.out.println("第" + (i + 1) + "个成绩是：" + scores[i]);
+    }
+
+    sc.close();
   }
 }
