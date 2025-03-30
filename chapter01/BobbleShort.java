@@ -9,7 +9,7 @@ public class BobbleShort {
     // 4. 每一轮比较的次数都在减1
 
     // 先定义原始数组
-    int[] arr = {23, 55, 76, 11, 9};
+    int[] arr = {23, 55, 76, 11, 9, 100};
 
     // 开始冒泡排序
     for (int i = 1; i <= arr.length - 1; i++) { // 控制排序次数
